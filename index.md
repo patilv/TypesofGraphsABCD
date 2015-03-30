@@ -314,4 +314,3 @@ Pie-charts, for their disadvantages, are easily recognized. Can use bars close t
 * Code for this presentation can be found at: https://github.com/patilv/TypesofGraphsABCD
 * The presentation can be found at: http://patilv.com/TypesofGraphsABCD
 
----
