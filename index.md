@@ -155,7 +155,7 @@ mode        : selfcontained # {standalone, draft}
 </table>
 
 ---
-# Beauty of Quartet
+## Beauty of Quartet
 
 <table cellpadding="3">
  <thead>
@@ -205,8 +205,7 @@ mode        : selfcontained # {standalone, draft}
 </table>
 
 ---
-
-Plots of the datasets
+## Plots of the datasets
 
 ![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png) 
 

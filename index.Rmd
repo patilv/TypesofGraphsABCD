@@ -32,7 +32,7 @@ kable(anscombereorder, format="html",table.attr='cellpadding="7"',row.names=TRUE
 ```
 
 ---
-# Beauty of Quartet
+## Beauty of Quartet
 
 ```{r results='asis', echo=FALSE}
 anscombelong=data.frame(x=unlist(anscombe[,1:4]),
@@ -45,8 +45,7 @@ kable(anscombelong %>%
 ```
 
 ---
-
-Plots of the datasets
+## Plots of the datasets
 
 ```{r echo=FALSE}
 # http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph 
