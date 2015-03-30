@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Few Types of Graphs</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Few Types of Graphs">
+  <meta name="author" content="Vivek Patil, Ph.D.">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/mycustom.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Few Types of Graphs</h1>
+    <h2></h2>
+    <p>Vivek Patil, Ph.D.<br/>Associate Professor of Marketing</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Anscombe&#39;s Quartet</h2>
+  </hgroup>
+  <article data-timings="">
+    <table cellpadding="7">
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> x1 </th>
+   <th style="text-align:right;"> y1 </th>
+   <th style="text-align:right;"> x2 </th>
+   <th style="text-align:right;"> y2 </th>
+   <th style="text-align:right;"> x3 </th>
+   <th style="text-align:right;"> y3 </th>
+   <th style="text-align:right;"> x4 </th>
+   <th style="text-align:right;"> y4 </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 8.04 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 9.14 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 7.46 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 6.58 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 6.95 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 8.14 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 6.77 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 5.76 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:right;"> 7.58 </td>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:right;"> 8.74 </td>
+   <td style="text-align:right;"> 13 </td>
+   <td style="text-align:right;"> 12.74 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 7.71 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 8.81 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 8.77 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 7.11 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 8.84 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:right;"> 8.33 </td>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:right;"> 9.26 </td>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:right;"> 7.81 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 8.47 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 6 </td>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:right;"> 9.96 </td>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:right;"> 8.10 </td>
+   <td style="text-align:right;"> 14 </td>
+   <td style="text-align:right;"> 8.84 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 7.04 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 7 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 7.24 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 6.13 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 6.08 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 5.25 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 8 </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 4.26 </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 3.10 </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 5.39 </td>
+   <td style="text-align:right;"> 19 </td>
+   <td style="text-align:right;"> 12.50 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 9 </td>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:right;"> 10.84 </td>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:right;"> 9.13 </td>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:right;"> 8.15 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 5.56 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 10 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 4.82 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 7.26 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 6.42 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 7.91 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 11 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 5.68 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 4.74 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 5.73 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 6.89 </td>
+  </tr>
+</tbody>
+</table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h1>Beauty of Quartet</h1>
+  </hgroup>
+  <article data-timings="">
+    <table cellpadding="3">
+ <thead>
+  <tr>
+   <th style="text-align:right;"> datasource </th>
+   <th style="text-align:right;"> x-mean </th>
+   <th style="text-align:right;"> y-mean </th>
+   <th style="text-align:right;"> x-variance </th>
+   <th style="text-align:right;"> y-variance </th>
+   <th style="text-align:right;"> correlation-xy </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 7.500909 </td>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:right;"> 4.127269 </td>
+   <td style="text-align:right;"> 0.8164205 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 7.500909 </td>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:right;"> 4.127629 </td>
+   <td style="text-align:right;"> 0.8162365 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 7.500000 </td>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:right;"> 4.122620 </td>
+   <td style="text-align:right;"> 0.8162867 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 7.500909 </td>
+   <td style="text-align:right;"> 11 </td>
+   <td style="text-align:right;"> 4.123249 </td>
+   <td style="text-align:right;"> 0.8165214 </td>
+  </tr>
+</tbody>
+</table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <article data-timings="">
+    <p>Plots of the datasets</p>
+
+<p><img src="assets/fig/unnamed-chunk-3-1.png" alt="plot of chunk unnamed-chunk-3"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Encoding Categorical Variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>2D position</li>
+<li>Hue</li>
+<li>Point Shape</li>
+<li>Fill pattern</li>
+<li>Line Style</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Relationships usually displayed in graphs</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Time Series: Changes in variable(s) over time (Change, rise, increase, fluctuate, grow, decline, decrease, trend)</li>
+<li>Ranking (larger/smaller/equal to/greater/lesser)</li>
+<li>Part-to-whole (rate/percent/share of total/accounts for n percent)</li>
+<li>Deviation (absolute/percentage/rate of deviations from a reference value,)</li>
+<li>Distribution (frequency, distribution, range, concentration, normal)</li>
+<li>Correlation (how variables covary - increases/decreases/changes with, caused by, affected by)</li>
+<li>Geospatial (spatial, geographical - county/city/region/state/...)</li>
+<li>Nominal comparison (simple comparison of categorical variables - alphabetical/ascending/descending)</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Nominal Comparisons</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-4-1.png" alt="plot of chunk unnamed-chunk-4"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Time Series</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-5-1.png" alt="plot of chunk unnamed-chunk-5"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Ranking</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-6-1.png" alt="plot of chunk unnamed-chunk-6"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>Part-to-Whole</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-7-1.png" alt="plot of chunk unnamed-chunk-7"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Shapes with 2-D areas (area-graphs)</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-8-1.png" alt="plot of chunk unnamed-chunk-8"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>Shapes with 2-D or Bars?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-9-1.png" alt="plot of chunk unnamed-chunk-9"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Part-to-Whole</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Pie-charts, for their disadvantages, are easily recognized. Can use bars close to each other.
+<img src="assets/fig/unnamed-chunk-10-1.png" alt="plot of chunk unnamed-chunk-10"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Deviation Designs</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-11-1.png" alt="plot of chunk unnamed-chunk-11"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>Studying Distributions</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-12-1.png" alt="plot of chunk unnamed-chunk-12"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  <hgroup>
+    <h2>More distributions</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-13-1.png" alt="plot of chunk unnamed-chunk-13"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-16" style="background:;">
+  <hgroup>
+    <h2>Correlations</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-14-1.png" alt="plot of chunk unnamed-chunk-14"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>Geo-Spatial Designs</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-15-1.png" alt="plot of chunk unnamed-chunk-15"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-18" style="background:;">
+  <hgroup>
+    <h2>Geo-Spatial Designs</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-16-1.png" alt="plot of chunk unnamed-chunk-16"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h2>Geo-Spatial Designs</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-17-1.png" alt="plot of chunk unnamed-chunk-17"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  <hgroup>
+    <h2>Geo-Spatial Designs</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="playernationalitymap.png" width=900 height=700></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-21" style="background:;">
+  <hgroup>
+    <h2>Acknowledgements</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Most of the content derived from chapter titled &quot;Fundamental Variations of Graphs&quot; in Stephen Few&#39;s book: &quot;Show Me the Numbers&quot; </li>
+<li>Almost all graphs created using the <code>ggplot2</code> package in R</li>
+<li>The presentation was created using the <code>slidify</code> package in R<br></li>
+<li>Code for this presentation can be found at: <a href="https://github.com/patilv/TypesofGraphsABCD">https://github.com/patilv/TypesofGraphsABCD</a></li>
+<li>The presentation can be found at: <a href="http://patilv.com/TypesofGraphsABCD">http://patilv.com/TypesofGraphsABCD</a></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-22" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Anscombe&#39;s Quartet'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Beauty of Quartet'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title=''>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Encoding Categorical Variables'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Relationships usually displayed in graphs'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Nominal Comparisons'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Time Series'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Ranking'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Part-to-Whole'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Shapes with 2-D areas (area-graphs)'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Shapes with 2-D or Bars?'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Part-to-Whole'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Deviation Designs'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Studying Distributions'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='More distributions'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Correlations'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Geo-Spatial Designs'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='Geo-Spatial Designs'>
+         18
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Geo-Spatial Designs'>
+         19
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Geo-Spatial Designs'>
+         20
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='Acknowledgements'>
+         21
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title=''>
+         22
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

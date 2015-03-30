@@ -1,0 +1,17 @@
+base
+slidify
+knitr
+ggplot2
+gridExtra
+ggthemes
+reshape2
+plotrix
+dplyr
+choroplethr
+Cairo
+shiny
+slam
+Rglpk
+sparkTable
+slopegraph
+scales
